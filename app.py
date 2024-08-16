@@ -119,7 +119,7 @@ for grade in grade_options:
             selected_grades.append(grade)
 
 # Document length selection
-subject_options = ["1,000자", "2,000자", "3,000자"]
+subject_options = ["1,000자", "2,000자", "3,000자","4,000자", "5,000자"]
 subject_keyword = st.selectbox("📏 분량 선택", subject_options)
 
 # Generate the plan on button click
